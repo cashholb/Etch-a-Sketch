@@ -1,0 +1,36 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin-top: 25px;
+}
+
+.grid {
+    max-width: 900px;
+    max-height: 900px;
+    display: flex;
+    margin-top: 35px;
+    border: 1mm solid black;
+}
+
+.grid .column {
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.grid .column div {
+
+    /*border: 1mm solid black; creates border around boxes*/
+
+    height: 50px;
+    width: 50px;
+    background-color: rgb(239, 239, 239);
+}
